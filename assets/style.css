@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
   font-size: 5vmax;
-  height: calc(100vh - 71px);
+  height: calc(100vh - 54px);
   background-color: transparent !important;
   color: black;
   width: 100% !important;
@@ -43,12 +43,12 @@
 }
 
 #node span {
-  padding: 20px 0;
+  padding: 0;
   display: inline-block;
   animation: Glow 1s linear;
   animation-fill-mode: both;
   width: 100%;
-  height: calc(100vh - 71px);
+  height: calc(100vh - 54px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -229,7 +229,4 @@ form {
 button:focus {
   outline: none;
   background-color: rgb(206, 0, 0) !important;
-}
-
-.header {
 }
