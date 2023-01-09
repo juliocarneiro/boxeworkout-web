@@ -140,36 +140,6 @@ form {
   }
 }
 
-/* .buttons > button {
-  width: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 0;
-  border-radius: 32px;
-  font-size: 18px;
-  font-weight: 600;
-  color: white;
-  background-color: #ff0000;
-  border: none;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-
-.buttons > button:hover {
-  background-color: black;
-}
-
-.buttons > button > p {
-  margin: 0;
-  padding: 0;
-}
-
-.buttons > button:not(:last-child) {
-  margin-right: 15px;
-} */
-
 .byme {
   display: flex;
   justify-content: flex-end;
@@ -236,4 +206,9 @@ form {
 .button-30:active {
   box-shadow: #920000 0 3px 7px inset;
   transform: translateY(2px);
+}
+
+button:focus {
+  outline: none;
+  background-color: rgb(206, 0, 0) !important;
 }
