@@ -2,6 +2,11 @@
   cursor: default;
 }
 
+h3 {
+  font-family: "Jackson Alves Textura Pen";
+  font-size: 82px;
+}
+
 #node {
   display: flex;
   align-items: center;
