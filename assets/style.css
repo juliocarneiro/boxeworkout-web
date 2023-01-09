@@ -1,3 +1,7 @@
+* {
+  cursor: default;
+}
+
 #node {
   display: flex;
   align-items: center;
