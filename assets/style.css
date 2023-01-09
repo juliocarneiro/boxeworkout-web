@@ -18,6 +18,17 @@
   display: flex;
   padding: 15px;
   justify-content: space-between;
+  align-items: center;
+}
+
+.deep-orange.white-text > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deep-orange.white-text > div > i {
+  margin-left: 5px;
 }
 
 #node p {
@@ -138,6 +149,12 @@ form {
   .buttons > button:not(:last-child) {
     margin-bottom: 10px;
   }
+  .deep-orange.white-text {
+    flex-direction: column;
+  }
+  .material-icons {
+    font-size: 14px;
+  }
 }
 
 .byme {
@@ -211,4 +228,7 @@ form {
 button:focus {
   outline: none;
   background-color: rgb(206, 0, 0) !important;
+}
+
+.header {
 }

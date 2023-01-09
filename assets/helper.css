@@ -1,18 +1,5 @@
-.text-justify {
-  text-align: justify;
-}
-
-.w100 {
-  width: 100%;
-}
-
 .select-dropdown li.optgroup {
   font-weight: bold;
-}
-
-.margin10V {
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 ul.dropdown-content.select-dropdown li span {
@@ -28,10 +15,4 @@ ul.dropdown-content.select-dropdown li span {
 .input-field input[type="number"]:focus {
   border-bottom: 1px solid #000 !important;
   box-shadow: 0 1px 0 0 #000 !important;
-}
-
-@media (max-width: 992px) {
-  .center-align-on-medium-and-down {
-    text-align: center;
-  }
 }
