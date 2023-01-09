@@ -1,5 +1,9 @@
-* {
+*:not(a) {
   cursor: default;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 h3 {
@@ -23,6 +27,7 @@ h3 {
   display: flex;
   padding: 15px;
   justify-content: space-between;
+  align-items: center;
 }
 
 #node p {
