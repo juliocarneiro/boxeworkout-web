@@ -24,8 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
   let time_left = 10;
   let timeout;
 
-  console.log(default_data);
-
   /** set train name */
   document.title = default_data.name;
   nav_name.innerHTML = default_data.name;
