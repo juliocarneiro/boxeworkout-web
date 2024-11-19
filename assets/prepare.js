@@ -65,7 +65,6 @@ document.getElementById("train").addEventListener("change", () => {
   const train = document.getElementById("train");
   const elems = document.querySelectorAll(".custom");
 
-  console.log(elems);
   if (train.value == "custom;;") {
     elems.forEach((elem) => elem.classList.remove("hide"));
   } else {
